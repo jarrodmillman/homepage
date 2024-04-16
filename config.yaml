@@ -1,0 +1,29 @@
+baseURL: "https://jarrodmillman.com/"
+languageCode: "en-us"
+title: "Jarrod Millman"
+theme: scientific-python-hugo-theme
+relativeURLs: true
+disableKinds: ["taxonomy"]
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    renderHooks:
+      link:
+        enableDefault: true
+
+params:
+  author:
+    name: "Jarrod Millman"
+  description: "Homepage of Jarrod Millman"
+  navbarlogo:
+    text: Jarrod Millman
+    link: /
+  navbar:
+    - title: News
+      url: /post/
+    - title: Teaching
+      url: /teaching/
