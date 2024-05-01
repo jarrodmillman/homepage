@@ -18,25 +18,25 @@ caption = '''
 {{< /figure >}}
 
 
-I am Jarrod Millman, a member of the scientific Python community known for my contributions to open-source software projects.
-While I have a background in mathematics, computer science, and statistics, my primary focus has been on facilitating
-the development and maintenance of open-source, community-owned software tools that support scientific research.
+I am a Senior Open Source Scientific Python Developer at the [Berkeley Institute for Data Science](https://bids.berkeley.edu), UC Berkeley.
+My background is in mathematics and and statistics, with degrees from Cornell and Berkeley.
+As a founding member of the scientific Python ecosystem, my primary focus is on the development and long-term sustainability of open-source, community-owned software tools that support scientific research.
 
-I have played a leadership role in several major open-source scientific Python projects and organizations.
-I co-founded [NumFOCUS](https://numfocus.org/history), a nonprofit that promotes sustainable high-level programming languages,
+I co-founded:
+
+- [NumFOCUS](https://numfocus.org/history), a nonprofit that promotes sustainable high-level programming languages,
 open code development, and reproducible scientific research.
-Additionally, I co-founded the Neuroimaging in Python ([NIPY](https://nipy.org/)) project, which develops cutting-edge tools for brain imaging data analysis.
-I was also instrumental in launching the [Scientific Python](https://scientific-python.org/) project, an umbrella effort to coordinate core computational tools across scientific domains.
+- [NIPY](https://nipy.org/), the Neuroimaging in Python project, which develops cutting-edge tools for brain imaging data analysis.
+- The [Scientific Python](https://scientific-python.org/) project, an umbrella effort to coordinate core computational tools across scientific domains.
+
 Through these initiatives, I have championed open collaboration, software sustainability, and the democratization of data science to accelerate research breakthroughs.
 
-I've also been involved with several other projects in the scientific Python ecosystem.
-I am a core developer and a member of the steering council for NetworkX, a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
-I am currently a core developer of scikit-image.
-Previously, I served on the steering council for SciPy and was the NumPy release manager and a core developer of scikit-learn.
+I was involved in the conceptualization of NumPy, and an early maintainer of SciPy and scikit-learn.
+I currently am a core developer and steering council member of NetworkX (a package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks) and a core developer of scikit-image (a package for image processing in Python).
+I previously served on the steering council of SciPy.
 
-Throughout my career, I've been driven by the idea that open-source software is a powerful tool for enabling and advancing scientific research.
+Throughout my career, I've been driven by the idea that open-source software is a powerful tool for enabling and advancing transparent, reproducible, and accurate scientific research.
 By contributing to the infrastructure that supports this work, and striving to make these tools accessible to a broad community, I hope to play a small part in pushing the boundaries of human knowledge.
-It's a challenging but deeply rewarding endeavor, and I'm grateful for the opportunity to collaborate with so many talented and passionate individuals along the way.
 
 <!--
 I am a Senior Open Source Scientific Python Developer at the [Berkeley Institute for Data Science](https://bids.berkeley.edu) and co-founder of the [Scientific Python](https://scientific-python.org) project.
