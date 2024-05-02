@@ -17,10 +17,12 @@ caption = '''
 '''
 {{< /figure >}}
 
-I am a Senior Open Source Scientific Python Developer at the [Berkeley Institute for Data Science](https://bids.berkeley.edu), UC Berkeley.
+I am a Senior Open Source Scientific Python Developer at the [Berkeley Institute for Data Science](https://bids.berkeley.edu) at UC Berkeley.
 My background is in mathematics, computer science, and statistics, with degrees from Cornell and Berkeley.
 As a founding member of the scientific Python ecosystem, my primary focus is on the development and sustainability of open-source, community-owned scientific software tools.
 
+I was involved in the conceptualization of NumPy, and an early maintainer of SciPy and scikit-learn.
+I am a core developer and steering council member of NetworkX and a core developer of scikit-image.
 I co-founded:
 
 - The [Scientific Python](https://scientific-python.org/) project to better coordinate computational tools across scientific domains.
@@ -28,13 +30,7 @@ I co-founded:
 - The [Neuroimaging in Python](https://nipy.org/) project to develop cutting-edge tools for brain imaging data analysis.
 
 These efforts underscore my dedication to fostering open collaboration, enhancing research reproducibility, and promoting greater computational literacy among researchers.
-
-I was involved in the conceptualization of NumPy, and an early maintainer of SciPy and scikit-learn.
-I currently am a core developer and steering council member of NetworkX and a core developer of scikit-image.
-I previously served on the steering council of SciPy.
-
-Driven by the belief in open-source software's role in transparent, reproducible, and accurate scientific research, my focus has always been on enhancing the infrastructure supporting these principles.
-By making these tools accessible to a wide community, I aspire to contribute to the advancement of human knowledge.
+Driven by the belief in open-source software's role in transparent, reproducible, and accurate scientific research, my focus is on enhancing the infrastructure supporting these principles.
 
 <!--
 I am a Senior Open Source Scientific Python Developer at the [Berkeley Institute for Data Science](https://bids.berkeley.edu) and co-founder of the [Scientific Python](https://scientific-python.org) project.
