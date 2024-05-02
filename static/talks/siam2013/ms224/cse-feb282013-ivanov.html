@@ -107,95 +107,95 @@ b,strong { font-weight: bold; }
 
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
- 
+
 .hbox {
 	display: -webkit-box;
 	-webkit-box-orient: horizontal;
 	-webkit-box-align: stretch;
- 
+
 	display: -moz-box;
 	-moz-box-orient: horizontal;
 	-moz-box-align: stretch;
- 
+
 	display: box;
 	box-orient: horizontal;
 	box-align: stretch;
 }
- 
+
 .hbox > * {
 	-webkit-box-flex: 0;
 	-moz-box-flex: 0;
 	box-flex: 0;
 }
- 
+
 .vbox {
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-box-align: stretch;
- 
+
 	display: -moz-box;
 	-moz-box-orient: vertical;
 	-moz-box-align: stretch;
- 
+
 	display: box;
 	box-orient: vertical;
 	box-align: stretch;
 }
- 
+
 .vbox > * {
 	-webkit-box-flex: 0;
 	-moz-box-flex: 0;
 	box-flex: 0;
 }
-  
+
 .reverse {
 	-webkit-box-direction: reverse;
 	-moz-box-direction: reverse;
 	box-direction: reverse;
 }
- 
+
 .box-flex0 {
 	-webkit-box-flex: 0;
 	-moz-box-flex: 0;
 	box-flex: 0;
 }
- 
+
 .box-flex1, .box-flex {
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
 	box-flex: 1;
 }
- 
+
 .box-flex2 {
 	-webkit-box-flex: 2;
 	-moz-box-flex: 2;
 	box-flex: 2;
 }
- 
+
 .box-group1 {
 	-webkit-box-flex-group: 1;
 	-moz-box-flex-group: 1;
 	box-flex-group: 1;
 }
- 
+
 .box-group2 {
 	-webkit-box-flex-group: 2;
 	-moz-box-flex-group: 2;
 	box-flex-group: 2;
 }
- 
+
 .start {
 	-webkit-box-pack: start;
 	-moz-box-pack: start;
 	box-pack: start;
 }
- 
+
 .end {
 	-webkit-box-pack: end;
 	-moz-box-pack: end;
 	box-pack: end;
 }
- 
+
 .center {
 	-webkit-box-pack: center;
 	-moz-box-pack: center;
@@ -391,7 +391,7 @@ div.output_scroll {
   height: 24em;
   /* FF needs this *and the wrapper* to specify full width, or it will shrinkwrap */
   width: 100%;
-  
+
   overflow: auto;
   border-radius: 3px;
   box-shadow: inset 0 2px 8px rgba(0, 0, 0, .8);
@@ -493,7 +493,7 @@ div.text_cell_render {
 /* The following gets added to the <head> if it is detected that the user has a
  * monospace font with inconsistent normal/bold/italic height.  See
  * notebookmain.js.  Such fonts will have keywords vertically offset with
- * respect to the rest of the text.  The user should select a better font. 
+ * respect to the rest of the text.  The user should select a better font.
  * See: https://github.com/ipython/ipython/issues/1503
  *
  * .CodeMirror span {
@@ -654,7 +654,7 @@ pre, code, kbd, samp { white-space: pre-wrap; }
 
 .rendered_html tr {
     border: 1px solid black;
-}    
+}
 
 .rendered_html p + p {
     margin-top: 1em;
@@ -793,14 +793,14 @@ div.output_prompt {
 </code></pre>
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In this talk, I will focus on the <strong>how</strong> of 
-reproducible research. 
+<p>In this talk, I will focus on the <strong>how</strong> of
+reproducible research.
 I will focus on specific tools and techniques I have
-found invaluable in doing research in a reproducible manner. In 
-particular, I will cover the following general topics (with specific 
+found invaluable in doing research in a reproducible manner. In
+particular, I will cover the following general topics (with specific
 examples in parentheses): version control
 and code provenance (git), code verification (test driven
-development, nosetests), data integrity (sha1, md5, git-annex), seed 
+development, nosetests), data integrity (sha1, md5, git-annex), seed
 saving ( random seed retention ) distribution
 of datasets (mirroring, git-annex, metalinks), light-weight
 analysis capture ( ttyrec, ipython notebook)</p>
@@ -861,12 +861,12 @@ analysis capture ( ttyrec, ipython notebook)</p>
 </div>
 <div class="fragment">
 <p>Then is 2010, there's an <a class="roll" href="http://visionscience.com/pipermail/visionlist/2010/003626.html"><span data-title="email sent">email sent</span></a> to a vision community mailing list saying: </p>
-<pre><code class="ruby"><span class="constant">Does</span> <span class="identifier">anyone</span> <span class="identifier">have</span> <span class="identifier">a</span> <span class="identifier">copy</span> <span class="identifier">of</span> <span class="identifier">van</span> <span class="constant">Hateren</span> <span class="identifier">database?</span> <span class="constant">I</span> <span class="identifier">have</span> <span class="identifier">been</span> <span class="identifier">looking</span>  
+<pre><code class="ruby"><span class="constant">Does</span> <span class="identifier">anyone</span> <span class="identifier">have</span> <span class="identifier">a</span> <span class="identifier">copy</span> <span class="identifier">of</span> <span class="identifier">van</span> <span class="constant">Hateren</span> <span class="identifier">database?</span> <span class="constant">I</span> <span class="identifier">have</span> <span class="identifier">been</span> <span class="identifier">looking</span>
 <span class="identifier"><span class="keyword">for</span></span> <span class="identifier">the</span> <span class="number">4000</span> <span class="identifier">still</span> <span class="identifier">image</span> <span class="identifier">database</span>. <span class="constant">The</span> <span class="identifier">links</span> <span class="identifier">to</span> <span class="identifier">images</span>
 
 <span class="identifier">http</span><span class="symbol">:</span>/<span class="regexp">/hlab.phys.rug.nl/imlib</span><span class="regexp">/l1_200/index</span>.<span class="identifier">html</span>
 
-<span class="identifier">are</span> <span class="identifier">broken!</span> <span class="constant">And</span> <span class="identifier">it</span> <span class="identifier">looks</span> <span class="identifier">like</span> <span class="identifier">there</span> <span class="identifier">is</span> <span class="identifier">no</span> <span class="identifier">mirror</span> <span class="identifier">of</span> <span class="identifier">the</span> <span class="identifier">full</span> <span class="identifier">database</span>  
+<span class="identifier">are</span> <span class="identifier">broken!</span> <span class="constant">And</span> <span class="identifier">it</span> <span class="identifier">looks</span> <span class="identifier">like</span> <span class="identifier">there</span> <span class="identifier">is</span> <span class="identifier">no</span> <span class="identifier">mirror</span> <span class="identifier">of</span> <span class="identifier">the</span> <span class="identifier">full</span> <span class="identifier">database</span>
 <span class="identifier">anywhere</span>. <span class="constant">I</span> <span class="identifier">would</span> <span class="identifier">appreciate</span> <span class="identifier">your</span> <span class="identifier">help</span> <span class="identifier"><span class="keyword">and</span></span> <span class="identifier">suggestions</span>.
 </code></pre>
 </div>
@@ -1166,7 +1166,7 @@ index 0000000..b30551c
 <div class="hbox output_area">
 <div class="prompt output_prompt"></div>
 <div class="output_subarea output_stream output_stdout">
-<pre>whereis original.dus (1 copy) 
+<pre>whereis original.dus (1 copy)
   	74eda928-81f7-11e2-bfa9-e3a22b8f91cd -- here (local laptop)
 ok
 </pre>
@@ -1309,7 +1309,7 @@ lrwxrwxrwx 1 pi pi  184 Feb 28 17:40 <span class="ansired ansibold">original.dus
 <div class="prompt output_prompt"></div>
 <div class="output_subarea output_stream output_stdout">
 <pre>(merging origin/git-annex into git-annex...)
-whereis original.dus (1 copy) 
+whereis original.dus (1 copy)
   	74eda928-81f7-11e2-bfa9-e3a22b8f91cd -- origin (local laptop)
 ok
 </pre>
@@ -1448,7 +1448,7 @@ local annex size: 6 gigabytes
 known annex keys: 5621
 known annex size: 557 gigabytes
 bloom filter size: 16 mebibytes (0.1% full)
-backend usage: 
+backend usage:
 	SHA256: 6300
 	URL: 20
 </pre>
@@ -1524,8 +1524,8 @@ OK (KNOWNFAIL=5, SKIP=4)
 <section class="future" style="top: -133px; display: block;">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2>ttyrec</h2>
-<p>Lightweight capture tool (I use this daily, it helps me account for 
-how I spend my time). Just writes everything you see in the shell to a 
+<p>Lightweight capture tool (I use this daily, it helps me account for
+how I spend my time). Just writes everything you see in the shell to a
 file, with timing information, which you can later play back.</p>
 <p>demo in the shell (<code>ttyplay ~/2012-08-01_2.tty</code>)</p>
 </div>

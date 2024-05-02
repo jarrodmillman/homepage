@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 
 		meta: {
 			version: '2.3',
-			banner: 
+			banner:
 				'/*!\n' +
 				' * reveal.js <%= meta.version %> (<%= grunt.template.today("yyyy-mm-dd, HH:MM") %>)\n' +
 				' * http://lab.hakim.se/reveal-js\n' +
