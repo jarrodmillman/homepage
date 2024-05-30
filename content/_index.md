@@ -21,24 +21,16 @@ I am a Senior Open Source Scientific Python Developer at the [Berkeley Institute
 My background is in mathematics, computer science, and statistics, with degrees from Cornell and Berkeley.
 As a founding member of the scientific Python ecosystem, my primary focus is on the development and sustainability of open-source, community-owned scientific software tools.
 
-I was involved in the conceptualization of NumPy, and an early maintainer of SciPy and scikit-learn.
-I am a core developer and steering council member of NetworkX and a core developer of scikit-image.
-I co-founded:
+I serve on the steering council of NetworkX and am a core developer of scikit-image.
+In the past, I was an early contributor to NumPy, SciPy, and scikit-learn.
+I co-founded several influential initiatives to advance open and reproducible research:
 
 - The [Scientific Python](https://scientific-python.org/) project to better coordinate computational tools across scientific domains.
 - The nonprofit [NumFOCUS](https://numfocus.org/history) to promote open practices in research, data, and scientific computing.
 - The [Neuroimaging in Python](https://nipy.org/) project to develop cutting-edge tools for brain imaging data analysis.
 
-These efforts underscore my dedication to fostering open collaboration, enhancing research reproducibility, and promoting greater computational literacy among researchers.
-Driven by the belief in open-source software's role in transparent, reproducible, and accurate scientific research, my focus is on enhancing the infrastructure supporting these principles.
+I am dedicated to fostering open collaboration, enhancing research reproducibility, and promoting greater computational literacy among researchers.
+Through my work at BIDS and involvement in community-driven initiatives, I strive to advance transparent, reproducible, and accurate scientific research by enhancing the supporting infrastructure.
 
-<!--
-I am a Senior Open Source Scientific Python Developer at the [Berkeley Institute for Data Science](https://bids.berkeley.edu) and co-founder of the [Scientific Python](https://scientific-python.org) project.
-With a passion for data science and open-source software, I've dedicated my career to advancing the field through research, software development, and community engagement.
-
-As an active contributor to the scientific Python ecosystem, I've been involved in various projects, including NumPy, SciPy, NetworkX, scikit-image, scikit-learn, and nipy.
-My contributions range from core development to community outreach, aiming to make these powerful tools accessible to researchers and developers worldwide.
-
-In addition to my contributions to open-source projects, I've also served in leadership roles, including as the President of the NumFOCUS board of directors.
-In this capacity, I've championed sustainability and best practices within the scientific and research community, fostering a culture of community ownership and collaborative practice, where individuals actively engage in shaping and driving initiatives forward.
--->
+My efforts underscore a strong commitment to making research more open, collaborative, and reproducible.
+I firmly believe in the power of community-developed, open-source software to drive innovation and scientific discovery.
