@@ -17,20 +17,26 @@ caption = '''
 '''
 {{< /figure >}}
 
-I am a Senior Open Source Scientific Python Developer at the [Berkeley Institute for Data Science](https://bids.berkeley.edu) at UC Berkeley.
-My background is in mathematics, computer science, and statistics, with degrees from Cornell and Berkeley.
+I am a Senior Open Source Scientific Python Developer at the [Berkeley Institute for Data Science](https://bids.berkeley.edu) (BIDS) at UC Berkeley.
+My background is in computer science, mathematics, and statistics, with degrees from Cornell and Berkeley.
 As a founding member of the scientific Python ecosystem, my primary focus is on the development and sustainability of open-source, community-owned scientific software tools.
 
-I serve on the steering council of NetworkX and am a core developer of scikit-image.
-In the past, I was an early contributor to NumPy, SciPy, and scikit-learn.
+I serve on the steering council of [NetworkX](https://networkx.org) and am a core developer of [scikit-image](https://scikit-image.org).
+In the past, I was an early contributor to [NumPy](https://numpy.org), [SciPy](https://scipy.org), and [scikit-learn](https://scikit-learn.org).
 I co-founded several influential initiatives to advance open and reproducible research:
 
 - The [Scientific Python](https://scientific-python.org/) project to better coordinate computational tools across scientific domains.
 - The nonprofit [NumFOCUS](https://numfocus.org/history) to promote open practices in research, data, and scientific computing.
 - The [Neuroimaging in Python](https://nipy.org/) project to develop cutting-edge tools for brain imaging data analysis.
 
+<!--
+My efforts underscore to making research more open, collaborative, and reproducible.
+I firmly believe in the power of community-developed, open-source software to drive innovation and scientific discovery.
+
+
 I am dedicated to fostering open collaboration, enhancing research reproducibility, and promoting greater computational literacy among researchers.
-Through my work at BIDS and involvement in community-driven initiatives, I strive to advance transparent, reproducible, and accurate scientific research by enhancing the supporting infrastructure.
+Through my work at BIDS and involvement in community-driven initiatives, I strive to advance accurate, transparent, and reproducible scientific research by enhancing the supporting infrastructure.
 
 My efforts underscore a strong commitment to making research more open, collaborative, and reproducible.
 I firmly believe in the power of community-developed, open-source software to drive innovation and scientific discovery.
+-->
