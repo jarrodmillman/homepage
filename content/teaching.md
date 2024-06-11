@@ -2,6 +2,8 @@
 title: "Teaching"
 ---
 
+Here is a [Teaching Statement](/teach.pdf) that I wrote in 2020.
+
 ### UC Berkeley
 
 - Spring 2016 [Statistics MA Capstone Project.](http://www.jarrodmillman.com/stat222-spring2016)
